@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400;600&display=swap');
+:root {
+    --cor-1: black;
+    --cor-2: white;
+    --cor-3: green;
+    --cor-4: grey;
+    --cor-5: blue;
+    --cor-6: blueviolet;
+    --font-primaria: 'Krona One', sans-serif;
+    --fonte-secundaria: 'Montserrat',sans-serif;
+}
+
+body {
+    font-family: var(--font-primaria);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: auto;  
+}
+
+.cabecalho {
+    background-color: var(--cor-1);
+    border-bottom: 1px solid var(--cor-3);
+    font-size: small;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.imagem-wistia {
+    width: 100px;
+    height: 15px;
+    margin-right: 30px;
+}
+
+.imagem-employ {
+    width: 200px;
+    height: 70px;
+}
+
+.imagem-seta {
+    width: 13px;
+    height: 13px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    word-spacing: 5px;
+}
+
+.cabecalho nav a {
+    margin: 10px;
+    color: var(--cor-2);
+    text-decoration: none;
+}
+
+
+.cabecalho .acoes a {
+    margin-left: 10px;
+    color: var(--cor-2);
+    text-decoration: none;
+}
+
+.cabecalho .acoes a.entrar {
+    color: var(--cor-2);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px var(--cor-3);
+}
+
+.cabecalho .acoes a.iniciar {
+    background-color: var(--cor-3);
+    color: var(--cor-2);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.texto-principal {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.texto-principal h1 {
+    font-size: 32px;
+    margin: 0;
+}
+
+.texto-principal p {
+    color: var(--cor-1);
+    font-family: var(--fonte-secundaria);
+    margin: 10px 0 0;
+    font-size: 24px;
+}
+
+.texto-secundario {
+    font-family: var(--fonte-secundaria);
+    font-size: 13px;
+    line-height: 20px;
+    display: block;
+    margin-left: 72.6%;
+}
+
+.texto-secundario-menor {
+    font-family: var(--fonte-secundaria);
+    font-weight: normal;
+
+}
+
+.plano-texto-free{
+    color: var(--cor-1);
+}
+
+.plano-texto-plus{
+    color: var(--cor-3); 
+}
+
+.plano-texto-pro{
+    color: var(--cor-5);
+}
+
+.plano-texto-advanced{
+    color: var(--cor-6);
+}
+
+.preco-mes {
+    font-size: small;
+    line-height: 20px;
+    color: var(--cor-4);
+}
+
+.plano-gratuito {
+    display: flex;
+    justify-content: center;
+    padding: 3px 20px;
+}
+
+.plano {
+    display: inline-block;
+    background-color: var(--cor-2);
+    border-radius: 2px solid var(--cor-3);
+    padding: 10px 20px 0;
+    margin: 0 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.plano h2 {
+    margin: 0;
+    font-size: 32px;
+}
+
+.plano p {
+    margin: 10px;
+    color: var(--cor-4);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: normal;
+}
+
+.plano .preco {
+    font-size:36px;
+    margin: 20px 0;
+    color: var(--cor-1);
+}
+
+.plano button {
+    background-color: var(--cor-3);
+    color: var(--cor-2);
+    border: none;
+    padding: 15px 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+
+.plano ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+    text-align: left;
+    font-size: 12px;
+    line-height: 20px;
+}
+.plano ul li {
+    margin: 10px 0;
+    color: var(--cor-4);
+}
+
+.plano .preco .p {
+    color: var(--cor-4) ;
+}
+
+.cor-de-fundo{
+    background-color:rgb(144, 240, 144);
+    width: 100%;
+    height: 450px; 
+    position: absolute;
+}
+
